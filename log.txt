@@ -1,0 +1,13 @@
+str1 = This is a test string 654321
+str2 = 
+str3 = This is a test string 654321
+strnum = 123456
+Function names                                                        Input data                                                                     Output results
+getStrlen                                                      This is a test string 654321                                                      28
+toUpper                                                        This is a test string 654321                                                      THIS IS A TEST STRING 654321
+strcat                                                         THIS IS A TEST STRING 654321 123456                                               THIS IS A TEST STRING 654321123456
+toLower                                                        This is a test string 654321                                                      this is a test string 654321
+strcpy                                                         123456                                                                            this is a test string 654321
+equals                                                         this is a test string 654321                                                      This is a test string 654321     False
+equalsIgnoreCase                                                this is a test string 654321                                                      This is a test string 654321     True
+isAlphabet                                                     this is a test string 654321                                                      False
